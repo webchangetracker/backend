@@ -1,0 +1,7 @@
+services:
+  wct-postgres:
+    image: postgres:16.2-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: XBR664WqevXUqEYM
